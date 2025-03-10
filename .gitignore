@@ -53,14 +53,7 @@ ipython_config.py
 # VSCode settings
 .vscode/
 
-# Docker related files
-Dockerfile*
-docker-compose*.yml
-
-# Devcontainer settings (if not intended to be shared)
-.devcontainer/
-
-# Environment variables and secrets
+# Environment variables
 .env
 .env.*
 

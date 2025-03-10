@@ -1,0 +1,25 @@
+{
+    "name": "FastAI learning project",
+    "build": {
+        "dockerfile": "../docker/Dockerfile",
+        "context": "..",
+        "args": {
+            "USERNAME": "${localEnv:USER}"
+        },
+        "runArgs": [
+            "--gpus=all"
+        ]
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.vscode-pylance",
+                "ms-azuretools.vscode-docker",
+                "codeium.codeium" // Codeium extension ID
+            ]
+        }
+    },
+    "postCreateCommand": "chmod +x dev_init.sh && ./dev_init.sh"
+}
