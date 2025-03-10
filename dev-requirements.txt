@@ -1,0 +1,6 @@
+# dev-requirements.txt: Development tools for enhancing code quality and testing
+
+black==24.10.0          # Code formatter for consistent style.
+pytest==8.3.4           # Testing framework for running tests.
+ruff==0.9.1             # Linter and style checker for Python code.
+mypy==1.4.1             # Static type checker for Python.
