@@ -1,5 +1,6 @@
 # fastai-requirements.txt: Minimal runtime dependencies for the FastAI course
-
+numpy==1.26.4
+fastbook
 fastai==2.7.10          # FastAI library (course version)
 fastcore>=1.5.29        # Core utilities used by fastai
 fastprogress>=0.2.4     # Progress bar for training loops
@@ -11,7 +12,7 @@ torchvision==0.14.1     # Computer vision utilities for PyTorch
 matplotlib            # Plotting library
 pandas>=1.0.0         # Data manipulation and analysis
 requests              # HTTP library for Python
-pyyaml                # YAML parser and emitter
+pyyaml                # YAML parser and emittera
 pillow>=9.0.0        # Image processing library
 scikit-learn          # Machine learning library
 scipy                 # Scientific computing tools

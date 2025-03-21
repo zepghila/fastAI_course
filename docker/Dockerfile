@@ -8,6 +8,7 @@ ARG USER_GID=1000
 RUN apt-get update -y && apt-get install -y \
     git \
     sudo \
+    tree \
     python3 \
     python3-pip \
     libgl-dev \
